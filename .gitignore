@@ -1,0 +1,11 @@
+# Ne jamais pousser de secrets ou de clés privées
+*.key
+*.pem
+*.crt
+.env
+*-plain.yaml
+*.tfstate
+*.tfstate.*
+.vagrant/
+*.log
+kubeconfig
